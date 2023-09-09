@@ -41,7 +41,7 @@ choco install -y azure-cli
 Install-Module -Force Az
 Install-Module -Force posh-git
 choco install -y microsoftazurestorageexplorer
-choco install -y terraform
+#choco install -y terraform
 
 # Install tools in WSL instance
 write-host "Installing tools inside the WSL distro..."
