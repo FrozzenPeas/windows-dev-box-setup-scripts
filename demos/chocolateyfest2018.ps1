@@ -61,10 +61,10 @@ git.exe clone https://github.com/microsoft/wsl
 git.exe clone https://github.com/PowerShell/PowerShell
 
 # set desktop wallpaper
-Invoke-WebRequest -Uri 'http://chocolateyfest.com/wp-content/uploads/2018/05/img-bg-front-page-header-NO_logo-opt.jpg' -Method Get -ContentType image/jpeg -OutFile 'C:\github\chocofest.jpg'
-Set-ItemProperty -path 'HKCU:\Control Panel\Desktop\' -name wallpaper -value 'C:\github\chocofest.jpg'
-rundll32.exe user32.dll, UpdatePerUserSystemParameters
-RefreshEnv
+#Invoke-WebRequest -Uri 'http://chocolateyfest.com/wp-content/uploads/2018/05/img-bg-front-page-header-NO_logo-opt.jpg' -Method Get -ContentType image/jpeg -OutFile 'C:\github\chocofest.jpg'
+#Set-ItemProperty -path 'HKCU:\Control Panel\Desktop\' -name wallpaper -value 'C:\github\chocofest.jpg'
+#rundll32.exe user32.dll, UpdatePerUserSystemParameters
+#RefreshEnv
 
 Enable-UAC
 Enable-MicrosoftUpdate
